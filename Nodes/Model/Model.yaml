@@ -3,6 +3,7 @@ Type: ModelCategoryFolder
 Children:
 - File: Types/Types.yaml
 - Name: MyMotor1
+  Id: g=1c039de1fa4d21dc7a4c8fbb8135e616
   Type: MyMotor
   Children:
   - Name: Speed
@@ -10,6 +11,7 @@ Children:
     DataType: Int32
     Value: 10
 - Name: MyMotor2
+  Id: g=ba66de03bd27cf32948ee4007eb53631
   Type: MyMotor
   Children:
   - Name: Speed
