@@ -1,0 +1,11 @@
+Name: Paginas
+Type: FolderType
+Children:
+- Name: Padre1
+  Id: g=19884b232bd31e0aa2e8bf56608b8ddf
+  Supertype: Padre
+  ReferenceType: HasComponent
+- Name: Padre2
+  Id: g=71a4f2ba5ee64727563735f2a9c3f667
+  Supertype: Padre1
+  ReferenceType: HasComponent
