@@ -5,3 +5,26 @@ Children:
   Id: g=a3fcf0f25cbf4b8718bca2abb6e1205c
   Supertype: Screen
   ReferenceType: HasComponent
+- Name: MyMotorFaceplate
+  Id: g=94e60563006d4e7e8b9b8c0181f0db96
+  Supertype: Panel
+  ReferenceType: HasComponent
+  Children:
+  - Name: Width
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 300.0
+  - Name: Height
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 300.0
+  - Name: Motor
+    Type: Alias
+    DataType: NodeId
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Objects/Actividad_1/Model/Types/MyMotor"
